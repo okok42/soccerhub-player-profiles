@@ -102,7 +102,7 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
       <div className="aspect-[4/3] overflow-hidden">
         <img
           src={player.image}
-          alt={player.name}
+          alt={`Profile picture of ${player.name}`}
           className="block w-full h-full object-cover object-center transition-transform hover:scale-105"
         />
       </div>

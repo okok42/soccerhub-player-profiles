@@ -64,7 +64,7 @@ const PlayerDetail = () => {
               <div className="md:w-1/3">
                 <img 
                   src={player.image} 
-                  alt={player.name}
+                  alt={`Profile picture of ${player.name}`}
                   className="w-full h-[400px] object-cover object-center" 
                 />
               </div>
