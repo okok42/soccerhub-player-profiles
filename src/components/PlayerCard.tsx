@@ -137,6 +137,12 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
         <a 
           href={`/player/${player.id}`}
           className="text-accent hover:text-accent-foreground font-medium text-sm inline-block"
+          onClick={() => {
+            console.log("[SoccerHub] Read more clicked:", {
+              playerId: player.id,
+              playerName: player.name,
+            });
+          }}
         >
           Read more →
         </a>

@@ -17,6 +17,11 @@ const Index = () => {
     applyFilters();
   }, [searchTerm, currentPosition]);
 
+  // Log initial data load
+  useEffect(() => {
+    console.log("[SoccerHub] Loaded players:", players.length);
+  }, []);
+
   const applyFilters = () => {
     let result = [...players];
     
@@ -35,6 +40,12 @@ const Index = () => {
       );
     }
     
+    console.log("[SoccerHub] Filters applied:", {
+      position: currentPosition,
+      searchTerm: searchTerm.trim(),
+      resultCount: result.length,
+    });
+
     setFilteredPlayers(result);
   };
 
