@@ -1,9 +1,46 @@
-# Welcome to your Lovable project
+# SoccerHub — Player Profiles
+
+A lightweight React app for exploring soccer players. Browse a responsive grid of players, filter by position, and view rich player profile pages with key details and visuals. Built with Vite, TypeScript, Tailwind CSS, and shadcn/ui.
+
+## Getting Started
+
+### Prerequisites
+- Node.js and npm installed (recommend installing via nvm)
+
+### Installation
+```sh
+npm install
+```
+
+### Run locally
+```sh
+npm run dev
+```
+Then open the URL shown in the terminal (typically `http://localhost:5173`).
+
+### Other useful scripts
+- Build production bundle:
+```sh
+npm run build
+```
+- Preview production build locally:
+```sh
+npm run preview
+```
+
+## Tech Stack
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui (Radix UI primitives)
+- React Router
+- Recharts (charts/visualizations)
+
+---
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/215b13b2-3416-45fa-aa71-65b0873c9eaf
-
 ## How can I edit this code?
 
 There are several ways of editing your application.
