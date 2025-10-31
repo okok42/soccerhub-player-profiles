@@ -47,8 +47,19 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-gray-700 text-sm text-center">
+        <div className="mt-8 pt-8 border-t border-gray-700 text-sm text-center space-y-2">
           <p>© 2025 SoccerHub. All rights reserved.</p>
+          <p>
+            <a
+              href="https://github.com/your-org/soccerhub-player-profiles"
+              target="_blank"
+              rel="noreferrer"
+              className="underline hover:text-white"
+            >
+              GitHub Repository
+            </a>
+          </p>
+          <p>Data provided by internal sample dataset.</p>
         </div>
       </div>
     </footer>
