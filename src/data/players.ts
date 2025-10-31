@@ -261,3 +261,6 @@ export const positions = [
   { value: "Defender", label: "Defenders" },
   { value: "Goalkeeper", label: "Goalkeepers" }
 ];
+
+export const teams = ["all", ...Array.from(new Set(players.map((p) => p.team))).sort()];
+export const nationalities = ["all", ...Array.from(new Set(players.map((p) => p.nationality))).sort()];
