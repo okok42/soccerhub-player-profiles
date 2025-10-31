@@ -103,7 +103,7 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
         <img
           src={player.image}
           alt={player.name}
-          className="w-full h-full object-cover object-center transition-transform hover:scale-105"
+          className="block w-full h-full object-cover object-center transition-transform hover:scale-105"
         />
       </div>
       
